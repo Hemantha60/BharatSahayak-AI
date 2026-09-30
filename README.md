@@ -2,6 +2,7 @@
 
 ### Intelligence in Your Language
 
+🌐 **Live Demo:** https://bharatsahayak-ai-1.onrender.com
 BharatSahayak AI is a multilingual AI assistant designed to make useful information and digital guidance more accessible to people across India.
 
 It allows users to ask questions naturally in English, Hindi, and Kannada and receive AI-generated responses in their preferred language.
