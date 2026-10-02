@@ -75,3 +75,56 @@ BharatSahayak-AI/
 │
 ├── .gitignore
 └── README.md
+
+## ⚙️ Setup & Installation
+
+### Prerequisites
+
+- Node.js
+- Python 3
+- Git
+- Google Gemini API key
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Hemantha60/BharatSahayak-AI.git
+cd BharatSahayak-AI
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+
+### Backend Setup
+
+Open another terminal:
+
+```bash
+cd backend
+python -m venv venv
+
+```bash
+venv\Scripts\activate
+
+### Start the Backend
+
+Open a terminal and run:
+
+```bash
+cd backend
+venv\Scripts\activate
+uvicorn main:app --reload
+
+The backend will run at:
+
+http://127.0.0.1:8000
+
+### Start the Frontend
+
+Open another terminal:
+
+```bash
+cd frontend
+npm run dev
